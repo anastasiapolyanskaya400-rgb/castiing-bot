@@ -2,5 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "python casting_bot.py"
+startCommand = "python bot/casting_bot.py"
 restartPolicyType = "always"
