@@ -432,7 +432,7 @@ async def _submit_application(update, context, lang, user, data, photos):
         f"{t('caption_abroad', lang)} {data.get('abroad', '—')}\n"
         f"{t('caption_book', lang)} {data.get('book', '—')}\n"
         f"{t('caption_count', lang)} {len(photos)}\n\n"
-        f"{t('caption_tg', lang)} @{user.username or '—'} (ID: {user.id})"
+        f"{t('caption_tg', lang)} `@{user.username or '—'}` (ID: `{user.id}`)"
     )
 
     try:
@@ -537,18 +537,13 @@ if __name__ == "__main__":
 
 
 
- 
 
 
+    
+
+      
 
 
-   
-
-
-
-
-
-   
 
 
    
